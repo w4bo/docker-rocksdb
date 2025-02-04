@@ -1,8 +1,8 @@
 services:
-  python:
+  rocksdb:
     init: true
-    hostname: python
-    container_name: python
+    hostname: rocksdb
+    container_name: rocksdb
     build:
       context: .
       dockerfile: Dockerfile
