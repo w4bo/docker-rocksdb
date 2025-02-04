@@ -13,7 +13,7 @@ paretoset==1.2.4
 psycopg2-binary==2.9.10
 pptx2md==2.0.6
 PyMySQL==1.1.1
-pyyaml==5.3.1
+pyyaml==5.4
 requests==2.32.3
 scikit-learn==1.6.1
 scipy==1.15.1
