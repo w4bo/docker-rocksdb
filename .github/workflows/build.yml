@@ -13,6 +13,11 @@ jobs:
         run: |
           cd image
           docker compose up
+      - name: Run Java
+        run: |
+          cd java-rocksdb
+          chmod +x ./gradlew
+          ./gradlew
   release:
     needs:
       - build
