@@ -1,7 +1,7 @@
 #!/bin/bash
 set -exo
 
-ROCKSDB_VERSION=v9.2.1
+ROCKSDB_VERSION=v9.9.3
 
 cd /usr/src
 git clone --depth 1 --branch ${ROCKSDB_VERSION} https://github.com/facebook/rocksdb.git
