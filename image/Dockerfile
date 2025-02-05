@@ -1,18 +1,10 @@
-FROM alpine:3.20
+FROM ubuntu:24.04
 
-ARG ROCKSDB_VERSION=v9.2.1
+RUN apt update
+RUN apt install -y curl openjdk-8-jdk build-essential libgflags-dev libsnappy-dev zlib1g-dev libbz2-dev liblz4-dev libzstd-dev cmake git bash perl
+RUN mkdir -p /usr/src
 
-RUN apk update && \
-    apk add --no-cache zlib-dev bzip2-dev lz4-dev snappy-dev zstd-dev gflags-dev && \
-    apk add --no-cache build-base linux-headers git bash perl && \
-    mkdir /usr/src && \
-    cd /usr/src && \
-    git clone --depth 1 --branch ${ROCKSDB_VERSION} https://github.com/facebook/rocksdb.git && \
-    cd /usr/src/rocksdb && \
-    sed -i 's/install -C/install -c/g' Makefile && \
-    make -j4 shared_lib && \
-    make install-shared && \
-    apk del build-base linux-headers git bash perl && \
-    rm -rf /usr/src/rocksdb
+ENV JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+ENV PATH="$JAVA_HOME/bin:$PATH"
 
-WORKDIR /
+WORKDIR /usr/src

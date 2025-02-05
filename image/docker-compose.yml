@@ -8,4 +8,4 @@ services:
       dockerfile: Dockerfile
     volumes:
       - .:/src
-    command: ["/bin/bash", "/src/run.sh"]
+    command: ["/bin/bash", "/src/build.sh"]
