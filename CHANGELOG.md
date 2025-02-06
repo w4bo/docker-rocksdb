@@ -1,3 +1,14 @@
+## [1.0.2](https://github.com/w4bo/docker-rocksdb/compare/1.0.1...1.0.2) (2025-02-06)
+
+### Dependency updates
+
+* **deps:** update dependency gradle to v7.6.4 ([#5](https://github.com/w4bo/docker-rocksdb/issues/5)) ([9fb27a3](https://github.com/w4bo/docker-rocksdb/commit/9fb27a32107123e7873852828835b185c8c1dc03))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.122 ([#13](https://github.com/w4bo/docker-rocksdb/issues/13)) ([6bb1de9](https://github.com/w4bo/docker-rocksdb/commit/6bb1de9e8ccfc29fbe30c735e60b202627b8f80d))
+
+### Bug Fixes
+
+* **deps:** update dependency org.junit.jupiter:junit-jupiter to v5.9.3 ([#6](https://github.com/w4bo/docker-rocksdb/issues/6)) ([16485dc](https://github.com/w4bo/docker-rocksdb/commit/16485dc84b8e35e6c65f43d4625e3697dace9c90))
+
 ## [1.0.1](https://github.com/w4bo/docker-rocksdb/compare/1.0.0...1.0.1) (2025-02-06)
 
 ### Bug Fixes
