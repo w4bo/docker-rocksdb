@@ -7,16 +7,14 @@ repositories {
 }
 
 dependencies {
-    // implementation files('image/java-libs/rocksdbjni-9.2.1-linux64.jar')
-    implementation 'org.rocksdb:rocksdbjni:9.2.1'
+    implementation files('../image/java-libs/rocksdbjni-9.9.3-linux64.jar')
+    // implementation 'org.rocksdb:rocksdbjni:9.9.3'
     testImplementation 'org.junit.jupiter:junit-jupiter:5.9.2'
     testImplementation 'org.assertj:assertj-core:3.24.2'
 }
 
-// tasks.withType(JavaExec) {
-//     systemProperty 'java.library.path', file("${projectDir}/image/java-libs").absolutePath
-// }
-
 tasks.withType(Test) {
     useJUnitPlatform()
 }
+
+defaultTasks 'clean', 'test'
