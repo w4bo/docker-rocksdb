@@ -17,4 +17,9 @@ tasks.withType(Test) {
     useJUnitPlatform()
 }
 
+buildScan {
+    termsOfServiceUrl = 'https://gradle.com/terms-of-service'
+    termsOfServiceAgree = 'yes'
+}
+
 defaultTasks 'clean', 'test'
