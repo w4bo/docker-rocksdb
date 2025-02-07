@@ -1,3 +1,9 @@
+## [1.0.4](https://github.com/w4bo/docker-rocksdb/compare/1.0.3...1.0.4) (2025-02-07)
+
+### Bug Fixes
+
+* **deps:** update dependency org.junit.jupiter:junit-jupiter to v5.11.4 ([#8](https://github.com/w4bo/docker-rocksdb/issues/8)) ([e4063c4](https://github.com/w4bo/docker-rocksdb/commit/e4063c49458db3719e1f9cfd792e5c5fadbc25fd))
+
 ## [1.0.3](https://github.com/w4bo/docker-rocksdb/compare/1.0.2...1.0.3) (2025-02-07)
 
 ### Bug Fixes
