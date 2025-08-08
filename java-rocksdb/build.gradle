@@ -10,7 +10,7 @@ dependencies {
     implementation files('../image/java-libs/rocksdbjni-9.9.3-linux64.jar')
     // implementation 'org.rocksdb:rocksdbjni:9.9.3'
     testImplementation 'org.junit.jupiter:junit-jupiter:5.11.4'
-    testImplementation 'org.assertj:assertj-core:3.27.3'
+    testImplementation 'org.assertj:assertj-core:3.27.4'
 }
 
 tasks.withType(Test) {
