@@ -1,3 +1,9 @@
+## [1.0.7](https://github.com/w4bo/docker-rocksdb/compare/1.0.6...1.0.7) (2025-09-23)
+
+### Bug Fixes
+
+* **deps:** update dependency org.assertj:assertj-core to v3.27.6 ([#65](https://github.com/w4bo/docker-rocksdb/issues/65)) ([c5f4909](https://github.com/w4bo/docker-rocksdb/commit/c5f49095bef57bf8e557453665b80571a08a1802))
+
 ## [1.0.6](https://github.com/w4bo/docker-rocksdb/compare/1.0.5...1.0.6) (2025-09-19)
 
 ### Dependency updates
