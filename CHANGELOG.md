@@ -1,3 +1,44 @@
+## [1.0.8](https://github.com/w4bo/docker-rocksdb/compare/1.0.7...1.0.8) (2026-01-25)
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.146 ([#66](https://github.com/w4bo/docker-rocksdb/issues/66)) ([b2f0193](https://github.com/w4bo/docker-rocksdb/commit/b2f0193a9080bd8953426b075bed4e7fb091896d))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.147 ([#68](https://github.com/w4bo/docker-rocksdb/issues/68)) ([77e772c](https://github.com/w4bo/docker-rocksdb/commit/77e772cf1c26487ac005a6457aa5f5fe0fe5e406))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.148 ([#72](https://github.com/w4bo/docker-rocksdb/issues/72)) ([9c717f9](https://github.com/w4bo/docker-rocksdb/commit/9c717f91a4708070185b5a63b4874da322f4229d))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.149 ([#74](https://github.com/w4bo/docker-rocksdb/issues/74)) ([2b10584](https://github.com/w4bo/docker-rocksdb/commit/2b10584d3f7e8597a1f95fa735b4e83772c1204e))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.151 ([#76](https://github.com/w4bo/docker-rocksdb/issues/76)) ([92df451](https://github.com/w4bo/docker-rocksdb/commit/92df4514098601434e4482d7398ba82b75943909))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.152 ([#77](https://github.com/w4bo/docker-rocksdb/issues/77)) ([f7dcb14](https://github.com/w4bo/docker-rocksdb/commit/f7dcb14fca12b0156416376b11b3c90d3e9b7f8c))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.153 ([#79](https://github.com/w4bo/docker-rocksdb/issues/79)) ([abd5e40](https://github.com/w4bo/docker-rocksdb/commit/abd5e40fc2e815ede201b1e419147a39681e7ab1))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.154 ([#80](https://github.com/w4bo/docker-rocksdb/issues/80)) ([d532b2e](https://github.com/w4bo/docker-rocksdb/commit/d532b2e21c3af25d806c3d3aba157f20fea95095))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.155 ([#81](https://github.com/w4bo/docker-rocksdb/issues/81)) ([36127c1](https://github.com/w4bo/docker-rocksdb/commit/36127c1ef54b88836ec847a08bb3dd8b583c34f6))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.156 ([#82](https://github.com/w4bo/docker-rocksdb/issues/82)) ([40bf9d5](https://github.com/w4bo/docker-rocksdb/commit/40bf9d5709bbfe3e67d9b2800eda78d5c97da9c1))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.157 ([#84](https://github.com/w4bo/docker-rocksdb/issues/84)) ([37ab2f5](https://github.com/w4bo/docker-rocksdb/commit/37ab2f5c3e48e2d3b505c6bfda849814f3cae2f9))
+* **deps:** update gradle to v8.14.4 ([#95](https://github.com/w4bo/docker-rocksdb/issues/95)) ([c133b7c](https://github.com/w4bo/docker-rocksdb/commit/c133b7c99afe87a34f88f04d9afb6cd0476e4694))
+* **deps:** update node.js to 22.20 ([#67](https://github.com/w4bo/docker-rocksdb/issues/67)) ([3c46f95](https://github.com/w4bo/docker-rocksdb/commit/3c46f950f3042fb1128b659b602cfc3b934719fe))
+* **deps:** update node.js to 22.21 ([#75](https://github.com/w4bo/docker-rocksdb/issues/75)) ([fa3ce97](https://github.com/w4bo/docker-rocksdb/commit/fa3ce97ed0199589d571402cba4dcb5e62c60b43))
+* **deps:** update node.js to 24.12 ([#88](https://github.com/w4bo/docker-rocksdb/issues/88)) ([cf4b705](https://github.com/w4bo/docker-rocksdb/commit/cf4b705e5ee8e67af194a6bc18812d68cdf0724a))
+* **deps:** update node.js to 24.13 ([#91](https://github.com/w4bo/docker-rocksdb/issues/91)) ([eb68c27](https://github.com/w4bo/docker-rocksdb/commit/eb68c279696970ba01b491ad2d3f9a7c6363e281))
+* **deps:** update node.js to v24 ([#78](https://github.com/w4bo/docker-rocksdb/issues/78)) ([6ada529](https://github.com/w4bo/docker-rocksdb/commit/6ada529c8ec7dfe27a55fb9ff9763d339115e4f4))
+
+### Bug Fixes
+
+* **deps:** update dependency org.assertj:assertj-core to v3.27.7 ([#96](https://github.com/w4bo/docker-rocksdb/issues/96)) ([d77b6e3](https://github.com/w4bo/docker-rocksdb/commit/d77b6e3ca27179b984ccdb7814ffbf61364e0564))
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v5.0.1 ([#83](https://github.com/w4bo/docker-rocksdb/issues/83)) ([37ab03a](https://github.com/w4bo/docker-rocksdb/commit/37ab03a68ee13c4b5a2ff36291fa18137e174e98))
+* **deps:** update actions/checkout action to v6 ([#85](https://github.com/w4bo/docker-rocksdb/issues/85)) ([5528c77](https://github.com/w4bo/docker-rocksdb/commit/5528c778749ba3d72d7bb49c73b4e23bd39eb2f4))
+* **deps:** update actions/checkout action to v6.0.1 ([#86](https://github.com/w4bo/docker-rocksdb/issues/86)) ([4c9df07](https://github.com/w4bo/docker-rocksdb/commit/4c9df07ff30897853a04032133ecccffa16fe93f))
+* **deps:** update actions/checkout action to v6.0.2 ([#94](https://github.com/w4bo/docker-rocksdb/issues/94)) ([8fffc67](https://github.com/w4bo/docker-rocksdb/commit/8fffc670b278fd1f4ffcf8431aff501b82686e3f))
+* **deps:** update actions/setup-node action to v6 ([#71](https://github.com/w4bo/docker-rocksdb/issues/71)) ([6cea9d6](https://github.com/w4bo/docker-rocksdb/commit/6cea9d6469a73b4995d5b1cfa3cde5158281d48f))
+* **deps:** update actions/setup-node action to v6.1.0 ([#87](https://github.com/w4bo/docker-rocksdb/issues/87)) ([cb673cc](https://github.com/w4bo/docker-rocksdb/commit/cb673cc59992d843c68508ff36fb39c3a72e9278))
+* **deps:** update actions/setup-node action to v6.2.0 ([#93](https://github.com/w4bo/docker-rocksdb/issues/93)) ([aaa3baa](https://github.com/w4bo/docker-rocksdb/commit/aaa3baa1444d1df9aae197bf445626447c85e4a3))
+* **deps:** update docker/login-action digest to 0567fa5 ([#92](https://github.com/w4bo/docker-rocksdb/issues/92)) ([54e81b2](https://github.com/w4bo/docker-rocksdb/commit/54e81b2d3734636b13c2b1b9de0d1cc956ada9ac))
+* **deps:** update docker/login-action digest to 28fdb31 ([#73](https://github.com/w4bo/docker-rocksdb/issues/73)) ([757aafb](https://github.com/w4bo/docker-rocksdb/commit/757aafb62d358cfd0ebbf9885056d48e86eb4e69))
+* **deps:** update docker/login-action digest to 5e57cd1 ([#69](https://github.com/w4bo/docker-rocksdb/issues/69)) ([ccc6faa](https://github.com/w4bo/docker-rocksdb/commit/ccc6faa2cc6184f3bf0f25aecb1593dd8217fe06))
+* **deps:** update docker/login-action digest to 6862ffc ([#89](https://github.com/w4bo/docker-rocksdb/issues/89)) ([b5677d7](https://github.com/w4bo/docker-rocksdb/commit/b5677d73ff53261f10619d76911c0cbb0b22fd23))
+* **deps:** update docker/login-action digest to 916386b ([#90](https://github.com/w4bo/docker-rocksdb/issues/90)) ([52afddb](https://github.com/w4bo/docker-rocksdb/commit/52afddb3b46a179a600d7589896b840e0b2fb5ef))
+
 ## [1.0.7](https://github.com/w4bo/docker-rocksdb/compare/1.0.6...1.0.7) (2025-09-23)
 
 ### Bug Fixes
